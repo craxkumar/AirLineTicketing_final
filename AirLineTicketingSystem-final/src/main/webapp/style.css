@@ -1,10 +1,17 @@
 
 
             table{
+            margin-left:40%;
+                	margin-right:40%;
+                	margin-top:5%;
+                	display:relative;
+                	   text-align:center;
                 color:white;
                 background-color: rgba(0, 0, 0, 0.493);
+                   width:500px;
+                height:800px;
             }
-            #b{
+            body{
                 background-image: url("ticket.png");
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -13,4 +20,34 @@
                 backdrop-filter: blur(5px);
 
             }
+            .nav-link {
+	color: rgba(116, 1, 1, 0.938);
+	font-weight: bolder;
+}
+
+.nav-item:hover {
+	background-color: rgba(0, 0, 0, 0.185);
+	color: white;
+	font-weight: bolder;
+}
+.nav-link:hover {
+	background-color: rgba(0, 0, 0, 0.185);
+	color: white;
+	font-weight: bolder;
+}
+
+
+span {
+	color: rgba(216, 112, 147, 0.521);
+	margin-top: 150%;
+	font-size: 100px;
+	text-shadow: 3px 3px black;
+}
+#h {
+	margin-top: 20px;;
+	font-size: 80px;
+	text-align: center;
+	color: maroon;
+	text-shadow: 8px 8px 8px rgb(255, 255, 255), 3px 3px 3px yellow;
+}
 

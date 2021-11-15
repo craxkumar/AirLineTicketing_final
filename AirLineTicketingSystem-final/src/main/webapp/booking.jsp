@@ -52,13 +52,13 @@
               <a class="nav-link" aria-current="page" href="index.jsp">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
+              <a class="nav-link" href="abt.jsp">AboutUs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="UserOption.jsp">USER OPTIONS</a>
+              <a class="nav-link" href="UserOption.jsp">UserOptions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.jsp">LOGOUT</a>
+              <a class="nav-link" href="index.jsp">logout</a>
             </li>
           </ul>
         </nav>

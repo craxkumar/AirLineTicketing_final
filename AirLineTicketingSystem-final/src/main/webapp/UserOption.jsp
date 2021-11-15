@@ -51,16 +51,16 @@
         <nav class="navbar navbar">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.jsp">HOME</a>
+              <a class="nav-link" aria-current="page" href="index.jsp">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
+              <a class="nav-link" href="abt.jsp">AboutUs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="signin.html">SIGNUP</a>
+              <a class="nav-link" href="signin.jsp">SignUp</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.jsp">LOGIN</a>
+              <a class="nav-link" href="login.jsp">Login</a>
             </li>
           </ul>
         </nav>

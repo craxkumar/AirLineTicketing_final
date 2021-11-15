@@ -17,11 +17,22 @@ public class FlightView extends HttpServlet {
 		res.setContentType("text/html");
 		PrintWriter out = res.getWriter();
 		List<Book> list = BookDao.getAllBooks();
-		out.print("<head><style>" + "" + "table{" + "color:white;" + "background-color: rgba(0, 0, 0, 0.493);" + "}"
-				+ "#b{" + "background-image: url(\"ticket.png\");" + "background-position: center center;"
-				+ "background-attachment: fixed;" + "background-size: cover;" + "backdrop-filter: blur(5px);" + "" + "}"
-				+ "" + "</style></head>");
-		out.print("<table border='1' width='100%'");
+		String cssTag = "<link rel='stylesheet' type='text/css' href='style.css'>";
+		String css2 = "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">";
+		out.println("<html>");
+		out.println("<html>");
+		out.println("<head><title>Title Name</title>" + cssTag+" "+css2+ "</head>");
+		out.println("<body>" + " <center><span>coMake Airlines</span></center>" + "   <nav class=\"navbar navbar\">\r\n"
+				+ "    <ul class=\"nav nav-tabs\">\r\n" + "        <li class=\"nav-item\">\r\n"
+				+ "          <a class=\"nav-link\" aria-current=\"page\" href=\"index.jsp\">HOME</a>\r\n"
+				+ "        </li>\r\n" + "        <li class=\"nav-item\">\r\n"
+				+ "          <a class=\"nav-link\" href=\"abt.jsp\">ABOUT US</a>\r\n" + "        </li>\r\n"
+				+ "        <li class=\"nav-item\">\r\n"
+				+ "          <a class=\"nav-link\" href=\"UserOption.jsp\">USER OPTIONS</a>\r\n" + "        </li>\r\n"
+				+ "        <li class=\"nav-item\">\r\n"
+				+ "          <a class=\"nav-link\" href=\"signin.jsp\">SIGNUP</a>\r\n" + "        </li>\r\n"
+				+ "      </ul>\r\n" + "    </nav>");
+		out.print("<table border='1'");
 		out.print(
 				"<tr><th>BookID</th><th>Source</th><th>Destination</th><th>No of passengers</th><th>Date of journey</th></tr>");
 		for (Book s : list) {

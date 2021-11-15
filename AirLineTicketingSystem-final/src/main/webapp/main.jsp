@@ -33,11 +33,27 @@
       text-align: center;
       
   }
+  #abt:hover{
+      color:white;
+      text-shadow: 5px 5px 5px black;
+      cursor: pointer;
+
+  }
+  #sign:hover{
+    color:white;
+      text-shadow: 5px 5px 5px black;
+      cursor: pointer;
+  }
+  #log:hover{
+    color:white;
+      text-shadow: 5px 5px 5px black;
+      cursor: pointer;
+  }
 
     </style>
 </head>
 <body>
-    <center><span>coMake Airlines</span></center>
+    <center><span>coMake  Airlines</span></center>
     <div>
         <input type="button" onclick="location.href='#';" value="AboutUs" id="abt" style="background-color: rgba(0, 174, 255, 0.322);" />
         <input type="button" onclick="location.href='signin.jsp ';" value="SignIn"  id="sign" style="background-color: rgba(216, 112, 147, 0.521);"/>

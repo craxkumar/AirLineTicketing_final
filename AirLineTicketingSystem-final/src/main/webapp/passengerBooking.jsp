@@ -56,11 +56,10 @@ table {
 	<nav class="navbar navbar">
 		<ul class="nav nav-tabs">
 			<li class="nav-item"><a class="nav-link" aria-current="page"
-				href="index.jsp">HOME</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
-			<li class="nav-item"><a class="nav-link" href="UserOption.jsp">USER
-					OPTIONS</a></li>
-			<li class="nav-item"><a class="nav-link" href="index.jsp">LOGOUT</a>
+				href="index.jsp">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="abt.jsp">AboutUs</a></li>
+			<li class="nav-item"><a class="nav-link" href="UserOption.jsp">UserOptions</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.jsp">logout</a>
 			</li>
 		</ul>
 	</nav>
